@@ -1,17 +1,18 @@
 -- First Assignment
 -- Reimplement Haskell function
 -- DON'T USE GOOGLE
-module Template where
+module one where
 
 import Data.List
 
 -- 1.a
 
-null' x = x
+null' [] = true
+null' (a:b) = false
 
 --pembatas
 
-take' x = x
+take'
 
 --pembatas
 
@@ -23,7 +24,7 @@ fst' (a,b)  = a
 
 --pembatas
 
-snd' x = x
+snd' (a,b) = b
 
 --pembatas
 
